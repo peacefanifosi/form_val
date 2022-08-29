@@ -30,6 +30,7 @@ form.addEventListener('submit', function(e) {
             || pnumber.value.startsWith('070')
             || pnumber.value.startsWith('080')
             || pnumber.value.startsWith('091')
+            || pnumber.value.length <11
                                        ){
 
     }else{
